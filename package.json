@@ -1,0 +1,20 @@
+{
+  "name": "web3-js",
+  "version": "1.0.0",
+  "description": "Working with the Web3-js Library",
+  "main": "app.js",
+  "scripts": {
+    "tx": "node transaction.js",
+    "block": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Naman",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.7",
+    "alchemy-sdk": "^2.6.1",
+    "dotenv": "^16.0.3",
+    "ethereumjs-tx": "^2.1.2",
+    "web3": "^1.8.2"
+  }
+}
