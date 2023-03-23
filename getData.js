@@ -1,3 +1,12 @@
+// Connection to the Blockchain
+const Tx = require("ethereumjs-tx").Transaction;
+const Web3 = require("web3");
+
+// // Connection a Particular account to fetch their Data.
+const web3 = new Web3(
+  "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161"
+);
+
 // Creating an Account on Web3
 const acct = web3.eth.accounts.create();
 console.log(acct);
